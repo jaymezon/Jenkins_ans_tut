@@ -14,7 +14,7 @@ pipeline {
             }
             stage('Testing') {
                   steps {
-                        echo 'Testing Sample Maven Project'
+                        echo 'Testing The Sample Maven Project'
                   }
             }
             stage('Deploy') {
